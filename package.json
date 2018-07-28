@@ -1,5 +1,5 @@
 {
-  "name": "Ecommerce_Storefront_Client",
+  "name": "ecommerce_storefront_client",
   "version": "1.0.0",
   "description": "storefront client SPA ",
   "main": "index.js",
@@ -7,7 +7,7 @@
   "author": "lam-ngo",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack --mode development --watch",
+    "dev": "webpack --mode development",
     "build": "webpack --mode production"
   },
   "devDependencies": {
