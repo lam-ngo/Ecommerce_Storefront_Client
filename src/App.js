@@ -1,6 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Route, NavLink } from 'react-router-dom';
 
+// IMPORT PAGES
+import HomePage from './pages/HomePage';
+
 class App extends React.Component {
   render() {
     return (
@@ -24,19 +27,13 @@ class App extends React.Component {
           >
             Shop
           </NavLink>
-          <Route exact path={'/'} component={Home} />
+          <Route exact path={'/'} component={HomePage} />
           <Route path={'/shop'} component={Shop} />
         </div>
       </BrowserRouter>
     );
   }
 }
-
-const Home = () => (
-  <div>
-    <h2>Home</h2>
-  </div>
-);
 
 const Shop = () => (
   <div>
