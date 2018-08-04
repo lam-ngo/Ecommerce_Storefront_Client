@@ -3,6 +3,7 @@ import { BrowserRouter, Route, NavLink } from 'react-router-dom';
 
 // IMPORT PAGES
 import HomePage from './pages/HomePage';
+import ProductsPage from './pages/ProductsPage';
 
 class App extends React.Component {
   render() {
@@ -25,20 +26,14 @@ class App extends React.Component {
               color: 'red'
             }}
           >
-            Shop
+            Products
           </NavLink>
           <Route exact path={'/'} component={HomePage} />
-          <Route path={'/shop'} component={Shop} />
+          <Route path={'/products'} component={ProductsPage} />
         </div>
       </BrowserRouter>
     );
   }
 }
-
-const Shop = () => (
-  <div>
-    <h2>Shop</h2>
-  </div>
-);
 
 export default App;
