@@ -20,7 +20,7 @@ class App extends React.Component {
             Home
           </NavLink>
           <NavLink
-            to={'/shop'}
+            to={'/products'}
             activeStyle={{
               fontWeight: 'bold',
               color: 'red'

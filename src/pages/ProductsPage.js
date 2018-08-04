@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import getProductsFromContentful, { client } from '../data/Contentful.config';
+import getProductsFromContentful from '../data/Contentful.config';
 
 class ProductsPage extends React.Component {
   constructor(props) {

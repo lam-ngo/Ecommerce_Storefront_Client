@@ -13,7 +13,7 @@ const client = createClient({
 });
 
 const getProductsFromContentful = () => {
-  client
+  return client
     .getEntries({
       content_type: 'product'
     })
